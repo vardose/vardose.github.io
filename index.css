@@ -1,0 +1,51 @@
+@font-face {
+  font-family: "baumans";
+  src: url("Assets/Baumans/Baumans-Regular.ttf");
+}
+
+body {
+  color: #ffffff;
+  background: url("Assets/4910984.gif") fixed no-repeat;
+  background-size: cover;
+
+  font-family: "baumans";
+}
+
+.all {
+  display: grid;
+
+  grid-template-columns: 3;
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
+
+.projects {
+  display: grid;
+  grid-column: 1;
+}
+.contacts {
+  grid-column: 2;
+}
+.accounts {
+  grid-column: 2;
+}
+
+a {
+  font-size: large;
+  font-weight: bold;
+  color: #ffffff;
+}
